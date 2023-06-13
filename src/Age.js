@@ -20,7 +20,7 @@ class Age extends Component {
     return (
       <div>
         <h3>{this.props.date}</h3>
-        <h3>You are {this.timeSince(this.props.date)}old</h3>
+        <h3>You are {this.timeSince(this.props.date)} old</h3>
       </div>
     );
   }
